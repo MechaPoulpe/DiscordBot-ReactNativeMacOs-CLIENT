@@ -1,7 +1,7 @@
 {
   "name": "DiscordBotMacOS",
   "version": "0.0.1",
-  "description": "iOS's Stocks App clone written for MacOS with Touch Bar support. Data is pulled from Yahoo Finance.",
+  "description": "Show message in the touchbar (macbook pro 2017) when someone mention you in discord (SERVER part required)",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native-macos/local-cli/cli.js start",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7kfpun/FinanceMacOSReactNative.git"
+    "url": "git+https://github.com/MechaPoulpe/DiscordBot-ReactNativeMacOs-CLIENT"
   },
   "keywords": [
     "react-native-macos",
@@ -17,25 +17,21 @@
     "react",
     "macos",
     "touchbar",
-    "finance",
-    "stocks",
-    "yahoo-finance"
+    "discord",
+    "bot"
   ],
-  "author": "kf <7kfpun@gmail.com> (https://github.com/7kfpun)",
+  "author": "MechaPoulpe (https://github.com/MechaPoulpe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/7kfpun/FinanceMacOSReactNative/issues"
+    "url": "https://github.com/MechaPoulpe/DiscordBot-ReactNativeMacOs-CLIENT/issues"
   },
-  "homepage": "https://github.com/7kfpun/FinanceMacOSReactNative#readme",
+  "homepage": "https://github.com/MechaPoulpe/DiscordBot-ReactNativeMacOs-CLIENT#readme",
   "dependencies": {
-    "mobx": "^2.6.2",
-    "mobx-react": "^3.5.8",
-    "moment": "^2.15.2",
     "react": "15.3.2",
     "react-native-macos": "^0.10.5",
-    "react-native-simple-store": "^1.1.0",
     "react-native-touchbar": "^1.0.0",
-    "react-router-native": "^2.0.0-beta.0"
+    "react-router-native": "^2.0.0-beta.0",
+    "socket.io-client": "^2.0.3"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.18.0",
